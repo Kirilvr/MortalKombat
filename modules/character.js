@@ -1,6 +1,6 @@
 export const character1 = {
   name: 'Scorpion',
-  hp: 50,
+  hp: 40,
   img: 'http://reactmarathon-api.herokuapp.com/assets/scorpion.gif',
   weapon: ['Spear', 'Kunai'],
   attack: function () {

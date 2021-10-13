@@ -1,6 +1,6 @@
 const $arenas = document.querySelector('.arenas');
 
-export function createPlayer(player, obj) {
+export const createPlayer = (player, obj) => {
   const $player = document.createElement('div');
   $player.classList.add(player);
 
@@ -27,4 +27,4 @@ export function createPlayer(player, obj) {
   $progressbar.appendChild($name);
   $character.appendChild($img);
   $arenas.appendChild($player);
-}
+};
