@@ -1,6 +1,7 @@
 export const character1 = {
+  player: 1,
   name: 'Scorpion',
-  hp: 40,
+  hp: 100,
   img: 'http://reactmarathon-api.herokuapp.com/assets/scorpion.gif',
   weapon: ['Spear', 'Kunai'],
   attack: function () {
@@ -9,8 +10,9 @@ export const character1 = {
 };
 
 export const character2 = {
+  player: 2,
   name: 'Sonya',
-  hp: 70,
+  hp: 100,
   img: 'http://reactmarathon-api.herokuapp.com/assets/sonya.gif',
   weapon: ['Bladed Fans', 'Kunai'],
   attack: function () {

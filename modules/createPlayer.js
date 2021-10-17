@@ -1,3 +1,4 @@
+import { createElement } from './createElement';
 const $arenas = document.querySelector('.arenas');
 
 export const createPlayer = (player, obj) => {
